@@ -26,7 +26,8 @@ libraries. To check your Node version, run the following, and verify that Node
 
 ```console
 $ nvm list
-
+$ nvm install 16
+$ nvm alias default 16
 ->     v16.13.0
         v17.0.1
          system
@@ -37,11 +38,9 @@ If it's not, you can install it and set it as the default with the following
 commands:
 
 ```console
-$ nvm install 16
-$ nvm alias default 16
+
 $ nvm use 16
 ```
-
 Next, make sure to download the source code for this lesson. Use the "OctoCat"
 icon at the top of the page to go to the GitHub repo for this lesson. Fork and
 clone this lesson onto your computer, then navigate into the lesson's directory
